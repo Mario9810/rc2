@@ -120,7 +120,7 @@ class Raycaster(object):
 
 
 pygame.init()
-screen = pygame.display.set_mode((1000,500), pygame.DOUBLEBUF | pygame.HWACCEL) #, pygame.FULLSCREEN)
+screen = pygame.display.set_mode((1700,500), pygame.DOUBLEBUF | pygame.HWACCEL) #, pygame.FULLSCREEN)
 screen.set_alpha(None)
 clock = pygame.time.Clock()
 font = pygame.font.SysFont("Arial", 30)
